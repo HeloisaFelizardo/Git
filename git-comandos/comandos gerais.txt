@@ -1,0 +1,13 @@
+COMANDOS GERAIS GIT
+
+1 - git-help - Exibe informações de ajuda sobre o Git
+
+2 - git init - Cria um repositório do Git a partir do diretório que está
+
+3 - git-clean - Remove arquivos não rastreados da árvore de trabalho
+
+4 - git-log - Mostra logs de confirmação
+
+5 - git-status - Mostra o status da árvore de trabalho
+
+6 - git ls - Mostra informações sobre arquivos no índice e na árvore de trabalho

@@ -1,0 +1,20 @@
+COMANDO CAT
+
+1 - Comando cat: mostrar o conteúdo de um arquivo ou criá-lo:
+cat NOME_DO_ARQUIVO
+
+2 - Juntar o conteúdos dos arquivos
+cat arquivo1 >> arquivo2
+
+3 - Adicionar conteúdo a um arquivo
+cat arquivo2 > arquivo1
+
+4 - OPÇÕES
+-t
+Em vez do conteúdo, mostra o tipo de objeto identificado
+
+-s
+Em vez do conteúdo, mostra o tamanho do objeto identificado
+
+-p
+Imprime o conteúdo com base em seu tipo

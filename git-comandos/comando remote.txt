@@ -1,0 +1,8 @@
+COMANDO REMOTE
+
+git-remote - Gerenciar conjunto de repositórios rastreados
+
+OPÇÕES
+-v
+--verbose
+Seja um pouco mais detalhado e mostre o URL remotA após o nome. NOTA: Isso deve ser colocado entre o remote e o subcommand.

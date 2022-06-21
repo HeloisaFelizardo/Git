@@ -1,0 +1,30 @@
+COMANDO DIFF
+
+git-diff - Mostra mudanças entre confirmações, confirmação e árvore de trabalho, etc
+
+OPÇÕES
+-p
+-U
+--patch
+Gere correção. Esse é o padrão.
+
+-s
+--no-patch
+Suprimir saída diff. Útil para comandos como o git show que mostra
+o patch por padrão ou para cancelar o efeito do --patch .
+
+-U <n>
+--unified= <n>
+Gere diffs com <n> linhas de contexto em vez das três usuais. Implica --patch . Implica -p .
+
+--output = <arquivo>
+Saída para um arquivo específico em vez de stdout.
+
+--raw
+Gere o diff no formato bruto.
+
+--patch-with-raw
+Sinônimo para -p --raw .
+
+--minimal
+Gaste tempo extra para garantir que a menor diferença possível seja produzida.

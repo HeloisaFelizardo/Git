@@ -1,0 +1,16 @@
+COMANDO BUNDLE
+
+git-bundle - Move objetos e referências por arquivo
+
+OPÇÕES
+create <arquivo>
+Usado para criar um pacote nomeado arquivo. Isso requer os argumentos git-rev-list-args para definir o conteúdo do pacote.
+
+verify <arquivo>
+Usado para verificar se um arquivo de pacote configurável é válido e será aplicado de forma limpa ao repositório atual.
+
+list-heads <file>
+Lista as referências definidas no pacote configurável.
+
+unbundle <arquivo>
+Passa os objetos no pacote configurável para o git index-pack do armazenamento no repositório e depois imprime os nomes de todas as referências definidas.

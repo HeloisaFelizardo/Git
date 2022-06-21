@@ -1,0 +1,15 @@
+COMANDO ARCHIVE
+
+git-archive - Crie um archive de arquivos de uma árvore nomeada
+
+OPÇÕES
+--format = <fmt>
+Formato do arquivo resultante: tar ou zip .
+
+-i
+--list
+Mostrar todos os formatos disponíveis.
+
+-v
+--verbose
+Relatar o progresso

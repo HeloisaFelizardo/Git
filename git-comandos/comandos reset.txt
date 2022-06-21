@@ -1,0 +1,32 @@
+COMANDO RESET
+
+git-reset - Redefine o HEAD atual para o estado especificado
+
+
+git reset [<modo>] [<commit>]
+Esse formulário redefine o cabeçalho de ramificação atual para <commit> e
+possivelmente atualiza o índice (redefinindo-o para a árvore de <commit> ) e
+a árvore de trabalho, dependendo de <mode> .
+Se <mode> for omitido, o padrão será --mixed . O <mode> deve ser um dos seguintes:
+
+--soft
+Não toca no arquivo de índice nem na árvore de trabalho (mas redefine o cabeçalho para <commit>,
+ assim como todos os modos).
+
+--mixed
+Redefine o índice, mas não a árvore de trabalho (ou seja, os arquivos alterados são preservados,
+ mas não marcados para confirmação) e relata o que não foi atualizado. Esta é a ação padrão.
+
+
+--hard
+Redefine o índice e a árvore de trabalho. Quaisquer alterações nos arquivos
+rastreados na árvore de trabalho desde que <commit> sejam descartadas.
+
+--merge
+Redefine o índice e atualiza os arquivos na árvore de trabalho que são
+ diferentes entre <commit> e HEAD , mas mantém aqueles que são diferentes entre o índice e a
+ árvore de trabalho (ou seja, que apresentam alterações que não foram adicionadas).
+
+--keep
+Redefine as entradas de índice e atualiza os arquivos na árvore de trabalho que são
+diferentes entre <commit> e HEAD.

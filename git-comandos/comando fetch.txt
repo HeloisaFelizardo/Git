@@ -1,0 +1,35 @@
+COMANDO FETCH
+
+git-fetch - Faz o download de objetos e referências de outro repositório
+
+OPÇÕES
+--all
+Busque todos os controles remotos.
+
+-a
+--append
+Anexe nomes de referência e nomes de objetos de referências buscadas ao conteúdo existente de .git/FETCH_HEAD .
+
+--shallow-since = <data>
+Aprofundar ou abreviar o histórico de um repositório superficial para incluir
+todos os commit alcançáveis Ã¢Â€Â‹Ã¢Â€Â‹após <data>.
+
+--shallow-exclude = <revisão>
+Aprofundar ou diminuir o histórico de um repositório superficial para excluir
+confirmações alcançáveis Ã¢Â€Â‹Ã¢Â€Â‹de uma ramificação ou tag remota especificada.
+
+--unshallow
+Se o repositório de origem estiver completo, converta um repositório raso em um completo,
+ removendo todas as limitações impostas por repositórios rasos.
+
+--update-shallow
+Por padrão, ao buscar em um repositório superficial, o git fetch recusa os refs que
+exigem atualização .git / shallow. Esta opção atualiza .git / shallow e aceita essas referências.
+
+--dry-run
+Mostre o que seria feito, sem fazer nenhuma alteração.
+
+-k - Mantenha o pacote baixado.
+
+--multiple
+Permita que vários argumentos <repository> e <group> sejam especificados.
